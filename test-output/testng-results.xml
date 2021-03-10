@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3008024" started-at="2021-02-25T07:25:43 UTC" finished-at="2021-02-25T08:15:51 UTC">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3008024" started-at="2021-02-25T07:25:43 UTC" finished-at="2021-02-25T08:15:51 UTC">
+      <class name="test.CrossBrowser">
+        <test-method status="PASS" signature="LaunchChrome()[pri:0, instance:test.CrossBrowser@30b8a058]" name="LaunchChrome" duration-ms="2985577" started-at="2021-02-25T07:25:43 UTC" finished-at="2021-02-25T08:15:29 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchChrome -->
+        <test-method status="PASS" signature="Launchfirefox()[pri:0, instance:test.CrossBrowser@30b8a058]" name="Launchfirefox" duration-ms="16947" started-at="2021-02-25T08:15:29 UTC" finished-at="2021-02-25T08:15:45 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchfirefox -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:test.CrossBrowser@30b8a058]" name="testcase1" duration-ms="1834" started-at="2021-02-25T08:15:45 UTC" depends-on-methods="test.CrossBrowser.LaunchChrome" finished-at="2021-02-25T08:15:47 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:test.CrossBrowser@30b8a058]" name="testcase2" duration-ms="3586" started-at="2021-02-25T08:15:47 UTC" depends-on-methods="test.CrossBrowser.Launchfirefox" finished-at="2021-02-25T08:15:51 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+      </class> <!-- test.CrossBrowser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
